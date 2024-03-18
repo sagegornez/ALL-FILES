@@ -1,0 +1,7 @@
+<hr>
+<h4 style=" font-size: 28px; "> Hola </h4>
+<h2> Today's Greetings: {{title}}</h2>
+<button [innerHTML]="title" (click)="showusername($event)">Click </button>
+
+<input type="text" [(ngModel)]="title" (keypress)="textboxKeyPress($event)"/>
+

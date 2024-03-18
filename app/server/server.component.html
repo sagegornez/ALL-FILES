@@ -1,0 +1,18 @@
+<p>
+    <input type="text" [(ngModel)]="serverName"/>
+    <button (click)="ViewServer()"> Add Server </button>
+</p>
+
+<!-- <div *ngFor="let server of serverNames;let i = index">
+<h1>Server {{i + 1}} </h1> -->
+<div *ngFor="let server of serverNames">
+<h1>{{serverNames}} server</h1>
+<app-username > </app-username>
+</div>
+    <p *ngIf="!show">
+        Server is not visible!
+    </p>
+
+    <ng-template [ngIf] ="!show">   
+<p> Inside the template </p>
+    </ng-template>

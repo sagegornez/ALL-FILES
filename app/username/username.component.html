@@ -1,0 +1,20 @@
+
+<!-- <div [ngStyle]="{backgroundColor: getBackground()}"> -->
+    <div [ngStyle]="{backgroundColor:  randomNumber < 0.5 ? 'Transparent' :'Red' }"
+    class="randomTextColor"
+    [ngClass]="{randomTextColor: randomNumber < 0.5}"
+    >
+        
+<hr/>
+<h4 style=" font-size: 28px; "> Hola </h4>
+
+
+  
+<input type="text" [(ngModel)]="Username" (keypress)="textboxKeyPress($event)"/>
+<br>
+<p>{{Username}}</p>
+<br>
+<br>
+<button (click)="resetUsername($event)" [disabled]="Username === ''">Reset Username</button> 
+
+</div>
