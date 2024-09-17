@@ -6,6 +6,7 @@
     <title>Chick 'N Naenae</title>
     <style>
         body {
+            background:#805252;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -41,7 +42,7 @@
             align-items: center;
         }
         .menu-item img {
-            max-width: 150px;
+            max-width: 230px;
             height: auto;
             margin-right: 20px;
             border-radius: 8px;
@@ -56,9 +57,12 @@
         
         .button-large {
             background-color: #007bff; 
-            position:absolute;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-decoration: none;
             padding: 15px 30px; 
-            font-size: 18px; 
+            border-radius: 5px;
+            font-weight: bold;
         }
         .button-large:hover {
             background-color: #0056b3; 
@@ -66,6 +70,7 @@
         .btn-small {
             background-color: #e74c3c;
             color: white;
+            position: center;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
@@ -84,7 +89,20 @@
             bottom: 0;
             width: 100%;
             height: 5%;
-           
+        }
+            .container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+            max-height: 600px; /* Adjust this value as needed */
+            object-fit: cover;
+        }
+        h2.headertekst {
+  text-align: center;
         }
     </style>
 </head>
@@ -103,14 +121,16 @@
     </header>
 
     <section id="home">
-        <h2>Welcome to Chick 'n Naenae</h2>
+        <h2 class="headertekst">Welcome to Chick 'n Naenae</h2>
+        <img src="https://www.burgerking.com.ph/images/offers/2%20for%20129%20Wpr%20Jr.%20+%20XLC%20Jr.%20Feb%202024.webp?version=1.14.1.1725406398817" class="hero-image">
         <p style="text-align:justify;" >
             Craving chicken wings? Look no further! Chick N' Naenae is your go-to fast food spot for unlimited, finger-licking good wings. From our signature spicy Buffalo wings to our irresistible Garlic Parmesan and sweet Honey BBQ, we offer a diverse range of flavors to satisfy every palate.
             <br>
             <br>
             At Chick N' Naenae, we pride ourselves on serving up hot, fresh wings with a side of unbeatable hospitality. Our easy-going atmosphere and fast service make us the perfect place for a quick meal or a fun outing with friends. Dive into our wings today and taste the difference at Chick N' Naenae – where every bite is a delight!</p>
-            <br>
-        <a href="#menu" class="btn-small" >Order Now!</a>
+            <br>         
+        <a href="#menu" class="button-large" >Order Now!</a>
+   
     </section>
     <section id="menu">
       <h2>Menu</h2>
@@ -118,7 +138,7 @@
           <img src="https://media.istockphoto.com/id/466496575/photo/buffalo-wing-with-flames.jpg?s=612x612&w=0&k=20&c=OOfm82kLxZePyMaUMLIsSI1j2whPhIIr53u_4ZaqvSI=" alt="BUFFALO SOLJA">
           <div>
               <h3>BUFFALO SOLJA</h3>
-              <p>deep-fried unbreaded chicken wings or drumsticks coated with a vinegar-and-cayenne-pepper hot sauce mixed with butter. ANGHANG RAPSA</p>
+              <p style="text-align:justify;">deep-fried unbreaded chicken wings or drumsticks coated with a vinegar-and-cayenne-pepper hot sauce mixed with butter. ANGHANG RAPSA</p>
               <p><strong>3 pcs of Wings with Rice</strong>  </p>
               <p><strong>Price:</strong> P129 </p>
               <br>
@@ -129,7 +149,7 @@
           <img src="https://www.thespruceeats.com/thmb/jt5lzw4kG8WGXlW5n_kSMTctvCY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/honey-barbecued-chicken-wings-recipe-3053267-hero-01-06e80993f4cb4f8e9816bbea87179923.jpg" alt="PUKYUTANOKMA">
           <div>
               <h3>PUKYUTANOKMA</h3>
-              <p>combine sweet and smoky flavors with a hint of tanginess. Coated in a honey-infused BBQ sauce, these wings are perfect for those who enjoy a flavorful, caramelized glaze with a touch of sweetness. MANAMIS SIMAN</p>
+              <p style="text-align:justify;">combine sweet and smoky flavors with a hint of tanginess. Coated in a honey-infused BBQ sauce, these wings are perfect for those who enjoy a flavorful, caramelized glaze with a touch of sweetness. MANAMIS SIMAN</p>
               <p><strong>3 pcs of Wings with Rice</strong>  </p>
               <p><strong>Price:</strong> P119 </p>
               <br>
@@ -140,7 +160,7 @@
           <img src="https://www.foxyfolksy.com/wp-content/uploads/2022/11/garlic-parmesan-wings.jpg" alt="P'CHICKBAWANG">
           <div>
               <h3>P'CHICKBAWANG</h3>
-              <p>savory and aromatic, featuring a rich blend of garlic and freshly grated Parmesan cheese. Tossed in melted butter and sprinkled with parsley, these wings offer a deliciously cheesy and garlicky twist. EDEWUP PANGTABOY SA ASWANG</p>
+              <p style="text-align:justify;">savory and aromatic, featuring a rich blend of garlic and freshly grated Parmesan cheese. Tossed in melted butter and sprinkled with parsley, these wings offer a deliciously cheesy and garlicky twist. EDEWUP PANGTABOY SA ASWANG</p>
               <p><strong>3 pcs of Wings with Rice</strong>  </p>
               <p><strong>Price:</strong> P119 </p>
               <br>
@@ -151,7 +171,7 @@
           <img src="https://simplyhomecooked.com/wp-content/uploads/2020/04/crispy-air-fryer-chicken-wings-recipe-5.jpg" alt="ALL OF D' ABOVE">
           <div>
               <h3>ALL OF D' ABOVE</h3>
-              <p>All of the three flavors of our chicken wings on the menu, unli rice and a drink of your choice</p>
+              <p style="text-align:justify;">All of the three flavors of our chicken wings on the menu, unli rice and a drink of your choice</p>
               <p><strong>Unli-Wings,Unli-Rice and Iced Tea or Softdrinks</strong></p>
               <p><strong>Price:</strong> P399 </p>
               <br>
