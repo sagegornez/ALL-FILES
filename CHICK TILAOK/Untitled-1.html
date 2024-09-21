@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chick 'N Naenae</title>
+    <style>
+        body {
+            background:#805252;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .menu-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .menu-item img {
+            max-width: 230px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .menu-item p {
+            margin: 5px 0;
+        }
+        
+        .button-large {
+            background-color: #007bff; 
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-decoration: none;
+            padding: 15px 30px; 
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button-large:hover {
+            background-color: #0056b3; 
+        }
+        .btn-small {
+            background-color: #e74c3c;
+            color: white;
+            position: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .btn-small:hover {
+            background-color: #c0392b;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: -20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 5%;
+        }
+            .container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+            max-height: 600px; /* Adjust this value as needed */
+            object-fit: cover;
+        }
+        h2.headertekst {
+  text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chick 'n Naenae</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2 class="headertekst">Welcome to Chick 'n Naenae</h2>
+        <img src="https://www.burgerking.com.ph/images/offers/2%20for%20129%20Wpr%20Jr.%20+%20XLC%20Jr.%20Feb%202024.webp?version=1.14.1.1725406398817" class="hero-image">
+        <p style="text-align:justify;" >
+            Craving chicken wings? Look no further! Chick N' Naenae is your go-to fast food spot for unlimited, finger-licking good wings. From our signature spicy Buffalo wings to our irresistible Garlic Parmesan and sweet Honey BBQ, we offer a diverse range of flavors to satisfy every palate.
+            <br>
+            <br>
+            At Chick N' Naenae, we pride ourselves on serving up hot, fresh wings with a side of unbeatable hospitality. Our easy-going atmosphere and fast service make us the perfect place for a quick meal or a fun outing with friends. Dive into our wings today and taste the difference at Chick N' Naenae – where every bite is a delight!</p>
+            <br>         
+        <a href="#menu" class="button-large" >Order Now!</a>
+   
+    </section>
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-item">
+          <img src="BUFF.png" alt="BUFFALO SOLJA">
+          <div>
+              <h3>BUFFALO SOLJA</h3>
+              <p style="text-align:justify;">deep-fried unbreaded chicken wings or drumsticks coated with a vinegar-and-cayenne-pepper hot sauce mixed with butter. ANGHANG RAPSA</p>
+              <p><strong>3 pcs of Wings with Rice</strong>  </p>
+              <p><strong>Price:</strong> P129 </p>
+              <br>
+              <a href="#" class="btn-small">Order</a>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="BBQ.png" alt="PUKYUTANOKMA">
+          <div>
+              <h3>PUKYUTANOKMA</h3>
+              <p style="text-align:justify;">combine sweet and smoky flavors with a hint of tanginess. Coated in a honey-infused BBQ sauce, these wings are perfect for those who enjoy a flavorful, caramelized glaze with a touch of sweetness. MANAMIS SIMAN</p>
+              <p><strong>3 pcs of Wings with Rice</strong>  </p>
+              <p><strong>Price:</strong> P119 </p>
+              <br>
+              <a href="#" class="btn-small">Order</a>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="GPC.png" alt="P'CHICKBAWANG">
+          <div>
+              <h3>P'CHICKBAWANG</h3>
+              <p style="text-align:justify;">savory and aromatic, featuring a rich blend of garlic and freshly grated Parmesan cheese. Tossed in melted butter and sprinkled with parsley, these wings offer a deliciously cheesy and garlicky twist. EDEWUP PANGTABOY SA ASWANG</p>
+              <p><strong>3 pcs of Wings with Rice</strong>  </p>
+              <p><strong>Price:</strong> P119 </p>
+              <br>
+              <a href="#" class="btn-small">Order</a>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="https://simplyhomecooked.com/wp-content/uploads/2020/04/crispy-air-fryer-chicken-wings-recipe-5.jpg" alt="ALL OF D' ABOVE">
+          <div>
+              <h3>ALL OF D' ABOVE</h3>
+              <p style="text-align:justify;">All of the three flavors of our chicken wings on the menu, unli rice and a drink of your choice</p>
+              <p><strong>Unli-Wings,Unli-Rice and Iced Tea or Softdrinks</strong></p>
+              <p><strong>Price:</strong> P399 </p>
+              <br>
+              <a href="#" class="btn-small">Order</a>
+          </div>
+      </div>
+  </section>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p style="text-align:justify;" >Welcome to Chick N' Naenae, your ultimate destination for unlimited, delicious chicken wings! At Chick N' Naenae, we believe that every meal should be a celebration of flavor and fun. Our mission is simple: to provide you with the best chicken wings in town, featuring a variety of mouthwatering flavors that cater to every taste preference.
+            <br>
+            <br>
+            Founded with a passion for great food and exceptional service, our team is dedicated to delivering a fast, friendly dining experience. Whether you're craving the classic kick of Buffalo wings, the savory richness of Garlic Parmesan, or the sweet and smoky notes of Honey BBQ, Chick N' Naenae has something for everyone. Join us and discover why we're the go-to spot for wing lovers everywhere!</p>
+    </section>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Email: chick'nnaenae&#64;gmail.com</p>
+        <p>Phone: 9999-999-999</p>
+        <p>Address: Paige Asus Ave, Quezon City</p>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+</body>
+</html>
